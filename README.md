@@ -14,7 +14,7 @@ This is a utility class built to work with handlebars inspired mostly in part by
 
 ## Examples
 
-> Checkout the `example` folder for a full example using both the `Async` and `Sync` loading options.
+> Checkout the included `example` folder for a full example using both the `Async` and `Sync` loading options.
 
 All examples below assume we have a `templates` folder in the root of our **www** folder that contatins a handlebars template file `user-list.html`.  This template's source would be something simple like:
 ```html

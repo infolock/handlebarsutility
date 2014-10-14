@@ -80,7 +80,7 @@ All examples below assume we have a `templates` folder in the root of our **www*
 ## Methods
 
 <a name="hbu-compile"></a>
-[`hbu.compile()`](#hbu-compile "hbu.compile") is just a basic shortcut to Handlebars.Compile()
+[`hbu.compile()`](#hbu-compile "hbu.compile") is just a basic shortcut to `Handlebars.Compile()`
 
 <a name="hbu-render"></a>
 [`hbu.render( url, data )`](#hbu-render "hbu.render( url, data )") Attemplates to fetch a template by the given `url`, compile it, and then returns the HTML string output after the received `data` objected is interpolated with the compiled template.

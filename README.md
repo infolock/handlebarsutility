@@ -90,6 +90,6 @@ Does the same as `render` above, except the HTML is returned as part of the payl
 
 
 #### Final Thoughts
-Considering I'm a huge fan-boy of `underscorejs`, it should then also come as no surprise that this utlity to have been strutured the same way.
+Considering I'm a huge fan-boy of [underscorejs](http://underscorejs.org/), it should then also come as no surprise that this utlity to have been strutured the same way.
 
 Hopefully this small/simple utility can serve a simple purpose well.  The code in this utility will, without a doubt, continue to grow as use cases present themselves.

@@ -75,7 +75,7 @@
             return;
         }
 
-        hbu.request( url, false ).done( function( source ) {
+        hbu.request( url, true ).done( function( source ) {
             hbu.cache[url] = hbu.compile( source );
             cb( hbu.cache[url]( data ) );
         });

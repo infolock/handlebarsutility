@@ -67,7 +67,7 @@ All examples below assume we have a `templates` folder in the root of our **www*
 
     $( function() {
 
-        hbu.render( '/templates/user-list.html', data, function( $userList ) {
+        hbu.renderAsync( '/templates/user-list.html', data, function( $userList ) {
             $( body ).append( $userList );
         });
 

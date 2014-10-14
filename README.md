@@ -79,19 +79,18 @@ All examples below assume we have a `templates` folder in the root of our **www*
 
 ## Methods
 
-**hbu.compile()**
-Shortcut to Handlebars.Compile()
+<a name="hbu-compile"></a>
+[`hbu.compile()`](#hbu-compile "hbu.compile") is just a basic shortcut to Handlebars.Compile()
 
-
-**hbu.render( url, data ) __returns HTML__**
-Attemplates to fetch a template by the given `url`, compile it, and then returns the HTML string output after the received `data` objected is interpolated with the compiled template.
+<a name="hbu-render"></a>
+[`hbu.render( url, data )`](#hbu-render "hbu.render( url, data )") Attemplates to fetch a template by the given `url`, compile it, and then returns the HTML string output after the received `data` objected is interpolated with the compiled template.
 
 * url:  full path to the template ( i.e., /templates/user-list.html )
 * data: the object to be interpolated
 
 
-**hbu.renderAsync( url, data, cb )**
-Does the same as `render` above, except the HTML is returned as part of the payload to the `cb` (*callback*) method
+<a name="hbu-renderAsync"></a>
+[`hbu.renderAsync( url, data, cb )`](#hbu-renderAsync "hbu.renderAsync( url, data, cb )") does the same as [hb.render](#hbu-render) above, except the HTML is returned as part of the payload via the received `cb` (*callback*)
 
 * url:  full path to the template ( i.e., /templates/user-list.html )
 * data: the object to be interpolated

@@ -5,6 +5,13 @@ Making a simple solution more useful
 
 This is a utility class built to work with handlebars inspired mostly in part by a [slick solution for loading handlebar template files](http://stackoverflow.com/a/10136935/1244184) on demand via ajax.
 
+
+**Required Libraries**
+* [underscorejs](http://underscorejs.org/)
+* [jQuery](http://jquery.com)
+* [Handlebars](http://handlebarsjs.com/)
+
+
 ## Examples
 
 All examples below assume we have a `templates` folder in the root of our **www** folder that contatins a handlebars template file `user-list.html`.  This template's source would be something simple like:

@@ -66,12 +66,21 @@ All examples below assume we have a `templates` folder in the root of our **www*
     };
 
     $( function() {
-
         hbu.renderAsync( '/templates/user-list.html', data, function( $userList ) {
             $( 'body' ).append( $userList );
         });
-
     });
+    /*
+    The above could also be written:
+
+    hbu.renderAsync( '/template.php', data, function( $userList ) {
+        $( function() {
+            $( '#output' ).append( $userList );
+        });
+    });
+    
+    along with any number of other ways....
+    */
 
 }());
 ```

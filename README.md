@@ -77,10 +77,11 @@ All examples below assume we have a `templates` folder in the root of our **www*
 ```
 
 
-#### Methods
+## Methods
 
 **hbu.compile()**
 Shortcut to Handlebars.Compile()
+
 
 **hbu.render( url, data ) __returns HTML__**
 Attemplates to fetch a template by the given `url`, compile it, and then returns the HTML string output after the received `data` objected is interpolated with the compiled template.
@@ -88,12 +89,14 @@ Attemplates to fetch a template by the given `url`, compile it, and then returns
 * url:  full path to the template ( i.e., /templates/user-list.html )
 * data: the object to be interpolated
 
+
 **hbu.renderAsync( url, data, cb )**
 Does the same as `render` above, except the HTML is returned as part of the payload to the `cb` (*callback*) method
 
 * url:  full path to the template ( i.e., /templates/user-list.html )
 * data: the object to be interpolated
 * cb: the callback function to receive the final HTML string output
+
 
 
 #### Final Thoughts

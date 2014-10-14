@@ -85,18 +85,13 @@ All examples below assume we have a `templates` folder in the root of our **www*
 <a name="hbu-render"></a>
 [`hbu.render( url, data )`](#hbu-render "hbu.render( url, data )") Attemplates to fetch a template by the given `url`, compile it, and then returns the HTML string output after the received `data` objected is interpolated with the compiled template.
 
-* url:  full path to the template ( i.e., /templates/user-list.html )
-* data: the object to be interpolated
-
-
 <a name="hbu-renderAsync"></a>
 [`hbu.renderAsync( url, data, cb )`](#hbu-renderAsync "hbu.renderAsync( url, data, cb )") does the same as [hb.render](#hbu-render) above, except the HTML is returned as part of the payload via the received `cb` (*callback*)
 
-* url:  full path to the template ( i.e., /templates/user-list.html )
-* data: the object to be interpolated
-* cb: the callback function to receive the final HTML string output
+<a name="hbu-request"></a>
+[`hbu.request( url, async )`](#hbu-request "hbu.request( url, async )") performs a basic `jQuery.ajax()` call and returns the `jqXHR` (promise) as a resule.  By default, this method performs all requests `synchronously`.  Pass in `true` for the `async` parameter to have it perform the requests `asynchronously`. 
 
-
+> Note: right now, only the `hbu-renderAsync` method actually benefits from using this param.  I'm anticiapting this changing which is why this parameter (and method) is part of the public scope...
 
 #### Final Thoughts
 Considering I'm a huge fan-boy of [underscorejs](http://underscorejs.org/), it should then also come as no surprise that this utlity to have been strutured the same way.

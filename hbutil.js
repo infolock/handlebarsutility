@@ -26,9 +26,7 @@
     hbu.version = '0.0.1';
     hbu.cache || ( hbu.cache = {} );
 
-    hbu.compile = function( source ) {
-        return Handlebars.compile( source );
-    };
+    hbu.compile = Handlebars.compile;
 
     hbu.request = function( url, async ) {
 

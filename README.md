@@ -3,7 +3,7 @@ handlebarsutility
 
 Making a simple solution more useful
 
-This is a utility class built to work with handlebars inspired mostly in part by a [slick solution for loading underscore template files](http://stackoverflow.com/a/10136935/1244184) on demand via ajax.
+This is a utility class built to work with handlebars inspired mostly in part by a [slick solution for loading underscore template files](http://stackoverflow.com/a/10136935/1244184) on demand via ajax - just repurposed it for handlebars.
 
 
 **Required Libraries**

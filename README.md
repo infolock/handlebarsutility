@@ -105,6 +105,6 @@ All examples below assume we have a `templates` folder in the root of our **www*
 > Note: right now, only the `hbu-renderAsync` method actually benefits from using this param.  I'm anticiapting this changing which is why this parameter (and method) is part of the public scope...
 
 #### Final Thoughts
-Considering I'm a huge fan-boy of [underscorejs](http://underscorejs.org/), it should then also come as no surprise that this utlity to have been strutured the same way.
+Used the same structure as [underscorejs](http://underscorejs.org/) for this utility (definition-wise)
 
 Hopefully this small/simple utility can serve a simple purpose well.  The code in this utility will, without a doubt, continue to grow as use cases present themselves.
